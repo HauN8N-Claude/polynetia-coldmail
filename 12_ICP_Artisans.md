@@ -125,7 +125,7 @@ Ne pas supposer qu’un artisan intervient sur tous les travaux d’une rénovat
 >
 > Bonne continuation,
 >
-> [Prénom et nom] de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 
 « Obtenir davantage de chantiers signés » peut servir d’objectif si le fondateur choisit cet angle ; cela ne décrit pas les résultats encore non documentés du cas photovoltaïque.
 

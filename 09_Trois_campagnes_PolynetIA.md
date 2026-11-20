@@ -51,11 +51,11 @@ Base de rédaction : adaptation de IB14 et CF04 proposée dans le chat, puis ré
 >
 > Souhaitez-vous que je vous l’envoie ?
 >
-> [Prénom et nom] de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 
 **Règles validées pour les déclinaisons :** conserver le cas photovoltaïque pour toutes les cibles et adapter le passage de projection au métier du segment. Le fondateur confirme que seul un accompagnement photovoltaïque a été réalisé. Pour les PAC, les critères proposés sont le logement, le chauffage existant et les besoins du propriétaire ; pour la rénovation, les travaux envisagés, le budget et le calendrier du projet. Aucun résultat réalisé en PAC ou rénovation n’est revendiqué. Le segment AUTRE doit être qualifié avant adaptation.
 
-Les deux repères entre crochets dans le corps sont éditoriaux : les remplacer par le texte validé du segment avant import. Ils ne constituent pas de nouvelles variables Instantly. La signature est également à compléter. Cette validation porte sur le corps de la relance 2 ; elle ne valide pas implicitement les objets, les autres relances ou le paramétrage d’envoi.
+Les deux repères entre crochets dans le corps sont éditoriaux : les remplacer par le texte validé du segment avant import. Ils ne constituent pas de nouvelles variables Instantly. La signature reprend la variable système du prénom du compte expéditeur. Cette validation porte sur le corps de la relance 2 ; elle ne valide pas implicitement les objets, les autres relances ou le paramétrage d’envoi.
 
 ## 4. CF17 avec trois bénéfices au maximum
 
@@ -77,7 +77,7 @@ Notre système vise trois bénéfices :
 
 Je ne sais pas si cela peut t’intéresser, mais je voulais tenter ma chance. Fais-moi savoir et je te l’enverrai.
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 Le tutoiement de CF17 est conservé ; les nouvelles séquences du Word sont au vouvoiement. Les bénéfices sont des objectifs de fonctionnement de l’offre, pas des résultats attribués au cas client ni des conclusions chiffrées de l’étude. Le bloc de trois bénéfices est le seul ajout commercial explicitement demandé à ce modèle.
@@ -107,7 +107,7 @@ Je ne vous propose pas de relancer les pubs. J’ai simplement noté 2–3 point
 
 Je vous les envoie ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 **Trois propositions de PS à valider — un seul sera retenu.**
@@ -133,7 +133,7 @@ Quand une entreprise coupe ses campagnes publicitaires après plusieurs mois, la
 
 Chez {{companyName}}, c’était plutôt lequel des deux ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 **Trois propositions de PS à valider — un seul sera retenu.**
@@ -161,7 +161,7 @@ J’ai une mini-grille en 4 points pour vérifier ça : vitesse de réponse, qua
 
 Je vous envoie le résumé rapide en 1 page ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 **Trois propositions de PS à valider — un seul sera retenu.**
@@ -189,7 +189,7 @@ Si votre campagne publicitaire a été arrêtée volontairement et que le sujet 
 
 Si vous envisagez de réactiver le levier de la publicité plus tard, je peux vous envoyer un fichier recommandation en 1 page pour vérifier le parcours avant d’y remettre du budget.
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 **Trois propositions de PS à valider — un seul sera retenu.**
@@ -215,7 +215,7 @@ Si vous voulez, on peut passer 15 minutes à vérifier les chiffres ensemble et 
 
 Vous êtes plus disponible [créneau 1] ou [créneau 2] ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 **Trois propositions de PS à valider — un seul sera retenu.**
@@ -245,7 +245,7 @@ J’ai vu que votre annonce pour {{openRoleTitle}} est toujours en ligne après 
 
 Vous cherchez toujours quelqu’un, ou le sujet a été mis de côté ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 ### SF02 Relance 1 après trois jours
@@ -265,7 +265,7 @@ Si ce besoin est toujours actif chez {{companyName}}, je peux vous envoyer une a
 
 Utile ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 ### SF03 Relance 2 trois jours après la précédente
@@ -283,7 +283,7 @@ J’ai mis sur une page une comparaison très simple « recrutement interne vs B
 
 Je vous l’envoie ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 ### SF04 Relance 3 quatre jours après la précédente
@@ -301,7 +301,7 @@ Si le recrutement est toujours prioritaire, aucun souci. Si vous voulez simpleme
 
 Je vous l’envoie ou je classe le sujet ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 Le champ jobGoal reprend un objectif explicite ou clairement étayé par l’annonce. Il ne doit pas être rempli depuis le seul intitulé d’un poste.
@@ -321,7 +321,7 @@ Pour {{companyName}}, j’aurais surtout besoin de comprendre 3 choses : d’où
 
 On peut faire le point en 15 minutes. [créneau 1] ou [créneau 2] vous conviendrait mieux ?
 
-[Prénom et nom] — PolynetIA
+{{sendingAccountFirstName}} de chez PolynetIA
 ```
 
 Cette réponse est manuelle après accord pour le document. Une simple confirmation que le recrutement continue ou que les publicités ont été arrêtées ne vaut pas automatiquement accord pour recevoir un diagnostic. Répondre d’abord au contenu réel du retour.
@@ -342,7 +342,7 @@ Les futurs CSV de Claude n’ont pas encore été reçus. Les noms ci-dessous re
 
 Conserver également les URL et dates de vérification des signaux dans les données de travail. Ces preuves servent à recontrôler un lead avant son import et ne sont pas nécessairement affichées dans le mail. Le CSV historique comporte déjà JobTitle pour la fonction du contact : ce champ ne sera pas écrasé par openRoleTitle.
 
-Les champs de diagnostic prioritaire, de justification et les créneaux dans les réponses manuelles sont remplacés au moment du traitement du fil. Ce ne sont pas des variables à remplir à l’avance pour tous les leads. Aucun prénom n’est utilisé dans ces brouillons faute d’identité confirmée.
+Les champs de diagnostic prioritaire, de justification et les créneaux dans les réponses manuelles sont remplacés au moment du traitement du fil. Ce ne sont pas des variables à remplir à l’avance pour tous les leads. Aucun prénom de prospect n’est utilisé dans ces brouillons faute d’identité confirmée.
 
 ## 8. Cadence et campagnes simultanées
 

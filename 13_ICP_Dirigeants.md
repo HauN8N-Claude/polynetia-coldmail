@@ -117,7 +117,7 @@ Ne pas présenter « rénovation globale », aides, audit énergétique ou gesti
 >
 > Bonne continuation,
 >
-> [Prénom et nom] de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 
 Pour un gérant dont le fonctionnement commercial reste inconnu, préférer la variante commune « travailler sur les demandes de devis et leur suivi ». Le langage du destinataire prime sur l’étiquette du poste.
 

@@ -60,7 +60,7 @@ Le template principal validé suit cette progression : salutation, offre adapté
 >
 > Il suffit de répondre « oui » et je vous l’envoie.
 >
-> [Prénom et nom] de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 
 Les champs entre crochets sont éditoriaux. Le choix « dirigeant » ou « artisan » dans la présentation du client accompagné suppose de connaître son rôle ; à défaut, employer « une entreprise d’installation photovoltaïque ».
 
@@ -76,7 +76,7 @@ Les champs entre crochets sont éditoriaux. Le choix « dirigeant » ou « artis
 >
 > Souhaitez-vous que je vous l’envoie ?
 >
-> [Prénom et nom] de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 
 Le passage de projection peut citer le logement et le chauffage existant pour la PAC, ou les travaux envisagés, le budget et le calendrier pour la rénovation, selon les prestations réelles. Il présente une application possible ; il ne transforme pas le cas photovoltaïque en référence client PAC ou rénovation. Les lots SOLAIRE correspondent au solaire thermique, distinct du photovoltaïque.
 
@@ -108,6 +108,8 @@ Un PS doit être lié à la fonction du mail : preuve, ressource disponible, uti
 Le premier PS avait été demandé avec une niche adaptable. Le fondateur a ensuite confirmé un accompagnement uniquement photovoltaïque : ne pas remplacer automatiquement cette preuve par PAC, bois, ventilation, thermique ou rénovation. La relance 2 Cimetière conserve par ailleurs l’ouverture affirmative validée avec `{{observedFunnelSignal}}` ; cette observation doit être réelle et vérifiée avant envoi.
 
 ## 5. Variables et version prête à importer
+
+**Signature choisie et appliquée :** `{{sendingAccountFirstName}} de chez PolynetIA`. Le fondateur a choisi le prénom seul tel qu’il est configuré sur chaque boîte, pour les huit mails CF04/CF17 et toutes les futures campagnes. `sendingAccountFirstName` est une variable système liée au compte d’envoi ; `firstName` désigne le prospect et ne doit pas servir de signature. Aucun champ d’expéditeur n’est ajouté aux leads. La relecture API confirme la présence de la variable dans les huit mails et les prénoms des comptes affectés ; les simulations locales les résolvent. Aucun envoi test n’est effectué. Références : [variables système](https://help.instantly.ai/en/articles/6687668-liquid-syntax) et [prévisualisation du compte expéditeur](https://help.instantly.ai/en/articles/6135930-how-to-add-and-use-variables-in-campaigns).
 
 Dans le copy, le nom d’entreprise s’écrit `{{companyName}}`. Le champ API `company_name` et la colonne CSV `CompanyName` sont des noms de données ; ils ne remplacent pas ce token dans le mail. Aucun prénom n’est nécessaire pour « Bonjour, ».
 

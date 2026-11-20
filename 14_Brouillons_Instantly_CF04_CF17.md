@@ -21,14 +21,15 @@ CF17 reprend le sujet précisé par le fondateur : les principaux points de fuit
 | Colonne CSV | Champ API | Usage |
 | --- | --- | --- |
 | Email | email | Adresse du contact |
-| CompanyName | company_name, relu dans payload.companyName | Seule variable utilisée dans les mails : {{companyName}} |
+| CompanyName | company_name, relu dans payload.companyName | Variable de lead utilisée dans les mails : {{companyName}} |
+| Prénom du compte expéditeur | Variable système {{sendingAccountFirstName}} | Signature validée : {{sendingAccountFirstName}} de chez PolynetIA ; aucune colonne de lead ajoutée |
 | FirstName / LastName | first_name / last_name | Valeurs conservées ; salutation Bonjour sans prénom |
 | JobTitle | job_title | Fonction du contact ; aucune attribution automatique artisan/dirigeant |
 | Phone / Website | phone / website | Données conservées |
 | Location, Linkedin, Greeting, Segment, Activity, ServiceHook, TeamSize, Department, SIRET, MailboxType | custom_variables avec les mêmes noms | Métadonnées relues, non affichées automatiquement dans le copy |
 | SourceLot / CibleMetier / ICPStatus | custom_variables | Lot d’origine / Photovoltaïque / non_confirme |
 
-Tous les champs des leads importés ont été relus et comparés aux sources. Aucun repère éditorial entre crochets ni variable non résolue ne subsiste dans les corps. Les CSV sources sont inchangés.
+Tous les champs des leads importés ont été relus et comparés aux sources. Aucun repère éditorial entre crochets ni variable non résolue ne subsiste dans les simulations locales à partir des données relues. Les CSV sources sont inchangés. Les prénoms configurés ont été vérifiés pour chaque compte affecté. La variable système est documentée par Instantly ; aucun envoi test ni prévisualisation graphique native n’a été exécuté dans cette opération.
 
 JobTitle est importé via le champ natif job_title pour éviter une collision avec un champ personnalisé équivalent. Une ancienne définition personnalisée JobTitle, inutilisée par le copy, peut rester visible dans CF04 après le premier essai de mapping ; aucune seconde valeur de fonction n’a été importée.
 
@@ -60,7 +61,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Il suffit de répondre « oui » et je vous l’envoie.
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 1 — J+3
@@ -71,7 +72,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Je voulais simplement m’assurer que mon dernier email ne s’était pas perdu dans votre boîte de réception.
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 2 — J+6
@@ -88,7 +89,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Souhaitez-vous que je vous l’envoie ?
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 3 — J+10
@@ -103,7 +104,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Bonne continuation,
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 **Vérifications API :** statut brouillon, texte et paramètres conformes, mapping sans erreur, nombre de contacts rapproché de l’import, sources inchangées.
@@ -136,7 +137,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Je ne sais pas si cela peut vous intéresser, mais je voulais tenter ma chance. Faites-moi savoir et je vous l’enverrai.
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 1 — J+3
@@ -147,7 +148,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Je voulais simplement m’assurer que mon dernier email ne s’était pas perdu dans votre boîte de réception.
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 2 — J+6
@@ -162,7 +163,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Vous pourrez ensuite décider si cela vaut la peine d’en discuter.
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 ### Relance 3 — J+10
@@ -177,7 +178,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 >
 > Bonne continuation,
 >
-> Haumoana Laussau de chez PolynetIA
+> {{sendingAccountFirstName}} de chez PolynetIA
 >
 
 **Vérifications API :** statut brouillon, texte et paramètres conformes, mapping sans erreur, nombre de contacts rapproché de l’import, sources inchangées.

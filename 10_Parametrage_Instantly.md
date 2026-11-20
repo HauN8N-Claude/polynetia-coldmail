@@ -46,6 +46,8 @@ Les champs non utilisés peuvent rester non importés si la campagne n’en a pa
 
 La signature correspond à l’expéditeur réel de la boîte choisie, pas au prénom du prospect. La contrôler en sélectionnant chaque compte d’envoi dans la prévisualisation. Une variable n’est ajoutée au copy qu’après vérification du champ importé, des valeurs et du rendu sur plusieurs contacts. Si une donnée manque, employer une phrase complète sans cette personnalisation plutôt que laisser une salutation ou une proposition tronquée.
 
+**Choix du fondateur appliqué le 20 novembre :** signer `{{sendingAccountFirstName}} de chez PolynetIA` dans les huit mails CF04/CF17 et les futures campagnes. Ce token est une variable système du compte expéditeur, sans colonne CSV ni variable personnalisée de lead à créer. Vérifier le prénom configuré pour toutes les boîtes affectées ; ne pas remplacer le token par le prénom du prospect. La relecture API confirme les huit signatures ; les simulations de résolution utilisent les prénoms réellement configurés. Aucun envoi test n’est déclenché. Référence : [variables système Instantly](https://help.instantly.ai/en/articles/6687668-liquid-syntax).
+
 Référence : [variables et prévisualisation Instantly](https://help.instantly.ai/en/articles/6135930-how-to-add-and-use-variables-in-campaigns).
 
 ### Champs supplémentaires pour les nouvelles listes

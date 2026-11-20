@@ -77,6 +77,8 @@ Si le nom d’entreprise est utilisé, employer `{{companyName}}`, puis vérifie
 
 ## 6. Personnalisation et mapping
 
+**Signature dynamique validée le 20 novembre :** `{{sendingAccountFirstName}} de chez PolynetIA`. Reprendre le prénom configuré sur le compte qui envoie réellement le mail. Cette règle s’applique aux huit mails des brouillons CF04 et CF17 et à toutes les futures campagnes. Elle a été appliquée et relue par API sur les huit mails ; les prénoms des comptes affectés sont renseignés. La variable est une variable système, distincte du prénom du prospect et des colonnes CSV. Ne pas inscrire de nom fixe ni ajouter une colonne expéditeur dans les leads. Si le prénom d’une boîte manque, compléter ou faire vérifier ce compte avant le lancement manuel. Référence : [variables système Instantly](https://help.instantly.ai/en/articles/6687668-liquid-syntax).
+
 Les CSV actuels conservent leurs 17 colonnes. `Segment` et `Activity` renseignent le métier ; `TeamSize` renseigne une classe de taille ; `JobTitle` peut renseigner une fonction lorsqu’elle est vérifiée. Aucun de ces champs ne crée automatiquement une étiquette artisan ou dirigeant fiable.
 
 Les expressions entre crochets des référentiels sont des repères éditoriaux, pas des variables Instantly. Pour commencer, préparer un texte fixe par combinaison métier/angle retenue. Ne pas ajouter un champ ou un token au CSV sans définition, correspondance et contrôle du rendu. Conserver `{{companyName}}` avec sa casse exacte lorsque le modèle l’utilise.

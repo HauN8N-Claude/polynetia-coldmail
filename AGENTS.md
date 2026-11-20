@@ -22,6 +22,7 @@
 
 - Utiliser l’API Instantly avec la variable d’environnement `INSTANTLY_API_KEY` déjà configurée ; ne jamais afficher sa valeur ni l’écrire dans un fichier.
 - Pour CF04 et CF17, conserver les campagnes en brouillon. Le fondateur effectuera lui-même le lancement manuel après validation ; ne pas appeler un endpoint d’activation ou d’envoi test.
+- Signature validée pour CF04, CF17 et toutes les futures campagnes : `{{sendingAccountFirstName}} de chez PolynetIA`. Reprendre le prénom configuré sur le compte expéditeur, jamais un nom fixe ni le prénom du prospect. Vérifier ce prénom pour chaque boîte affectée ; ne pas le créer comme variable de lead.
 - Avant une reprise après erreur API, relire l’état distant ; réutiliser les identifiants enregistrés et les clés d’idempotence d’import plutôt que recréer ou réimporter à l’aveugle.
 - Consulter `14_Brouillons_Instantly_CF04_CF17.md` pour les noms des campagnes, copies enregistrées, lots, mapping et comptes de cette préparation.
 

@@ -55,6 +55,10 @@ La répartition agrégée est dans [Segmentation_Instantly.md](Segmentation_Inst
 
 ## 6. Ordre de reprise
 
+**Signature validée et appliquée :** `{{sendingAccountFirstName}} de chez PolynetIA`. Le fondateur a choisi le prénom seul configuré sur chaque boîte, pour les huit mails CF04/CF17 et toutes les futures campagnes. Les huit signatures sont modifiées et relues par API ; les prénoms des deux comptes sont présents et les simulations locales les résolvent. Les objets et autres contenus sont conservés, les campagnes restent en brouillon. Aucun envoi test n’a été effectué.
+
+**Nouvelle demande en cours :** choisir deux autres méthodes de campagne. Cinq approches issues des modèles du mentor sont proposées : audit vidéo personnalisé (CF24/ED04), interview de recherche (CF21), podcast (PO01/PO02), atelier pédagogique (CF14), offre directe avec appel court (CF03). Aucune de ces nouvelles approches n’est encore choisie ni configurée dans cette étape.
+
 1. Lire AGENTS.md, ce document, la fiche 15 et les règles 11.
 2. Prendre connaissance des copies réellement enregistrées dans la fiche 14 et de leur état de validation.
 3. Conserver les objets CF04 et CF17 déjà validés et terminer la revue des textes et des lexiques.
