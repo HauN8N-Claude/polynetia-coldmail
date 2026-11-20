@@ -105,7 +105,7 @@ En attendant, un texte neutre peut parler de « vos demandes de devis et leur su
 
 ## 9. Rénovation pour de futures listes
 
-La rénovation n’est pas un dixième segment déjà disponible. Vérifier les travaux proposés : isolation, rénovation intérieure, rénovation énergétique, coordination de plusieurs métiers, etc. La rénovation énergétique recouvre notamment isolation, chauffage et ventilation ; elle ne désigne pas toute rénovation. [France Rénov’, travaux énergétiques](https://france-renov.gouv.fr/renovation/energetique).
+La rénovation n’est pas un dixième segment dans les lots QualitEnR historiques. Les nouveaux fichiers Cimetière du 20 novembre fournissent désormais un segment RENO_ARTISAN distinct, dont la préparation figure dans la fiche 18. Vérifier les travaux proposés : isolation, rénovation intérieure, rénovation énergétique, coordination de plusieurs métiers, etc. La rénovation énergétique recouvre notamment isolation, chauffage et ventilation ; elle ne désigne pas toute rénovation. [France Rénov’, travaux énergétiques](https://france-renov.gouv.fr/renovation/energetique).
 
 **Vocabulaire proposé :** travaux, projet, visite, devis, budget prévu, calendrier, chantier, corps de métier. **Critères possibles :** nature et ampleur des travaux, zone, budget du projet, échéance.
 

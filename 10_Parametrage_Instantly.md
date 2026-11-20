@@ -1,5 +1,7 @@
 # Mapping et organisation des envois Instantly
 
+**Nouveaux brouillons Cimetière du 20 novembre :** huit campagnes, une par CSV de 28 colonnes, décrites dans [la fiche 18](18_Campagnes_Cimetiere_20261120.md). Elles utilisent trois mails à J0/J+3/J+7 selon le choix du fondateur ; la relance exigeant `observedFunnelSignal` reste hors séquence. Le mapping diffère des lots QualitEnR. Quatre boîtes hors campagnes actives et CF04/CF17 sont partagées avec des plafonds cumulés contrôlés. Aucun envoi n’est déclenché par la préparation.
+
 **Préparation API du 20 novembre 2026 :** consulter [les deux brouillons CF04 et CF17](14_Brouillons_Instantly_CF04_CF17.md) pour les réglages effectivement enregistrés, les 77 contacts importés et le mapping contrôlé par relecture. Dans cette opération API, `JobTitle` est transmis au champ natif `job_title`, sans seconde valeur personnalisée équivalente. `CompanyName` devient `company_name` et alimente `{{companyName}}`. Les tableaux d’import UI historiques ci-dessous restent des références pour leurs propres modes d’import. Les nouvelles campagnes sont en brouillon ; leur activation appartient au fondateur.
 
 Règles de préparation du 19 novembre 2026. Elles s’appliquent aux campagnes CF04, CF17, Cimetière et Salaire fantôme, issues des sources retenues. La fiche 09 a été révisée avec les nouvelles copies à valider ; les premiers essais libres restent historiques. Aucun réglage réel d’Instantly n’a été modifié dans ce travail.

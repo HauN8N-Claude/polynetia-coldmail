@@ -15,6 +15,7 @@ Documents de travail pour reprendre la stratégie d’acquisition de PolynetIA s
 | Adapter le langage à un artisan | [Référentiel artisans](12_ICP_Artisans.md) |
 | Adapter le langage à un dirigeant | [Référentiel dirigeants](13_ICP_Dirigeants.md) |
 | Relire les copies enregistrées dans les deux brouillons | [CF04 et CF17](14_Brouillons_Instantly_CF04_CF17.md) |
+| Revoir les huit nouveaux brouillons Cimetière | [Préparation Cimetière du 20 novembre](18_Campagnes_Cimetiere_20261120.md) |
 | Retrouver les modèles textuels du mentor | [Bibliothèque de templates](07_Templates_emails_du_mentor.md) |
 | Comprendre le système complet | [Système d’acquisition](02_Systeme_acquisition_agence_V01.md) |
 | Retrouver une décision et son origine | [Registre](04_Registre_sources_et_decisions.md) |

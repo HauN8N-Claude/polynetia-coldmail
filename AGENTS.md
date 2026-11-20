@@ -25,6 +25,7 @@
 - Signature validée pour CF04, CF17 et toutes les futures campagnes : `{{sendingAccountFirstName}} de chez PolynetIA`. Reprendre le prénom configuré sur le compte expéditeur, jamais un nom fixe ni le prénom du prospect. Vérifier ce prénom pour chaque boîte affectée ; ne pas le créer comme variable de lead.
 - Avant une reprise après erreur API, relire l’état distant ; réutiliser les identifiants enregistrés et les clés d’idempotence d’import plutôt que recréer ou réimporter à l’aveugle.
 - Consulter `14_Brouillons_Instantly_CF04_CF17.md` pour les noms des campagnes, copies enregistrées, lots, mapping et comptes de cette préparation.
+- Consulter `18_Campagnes_Cimetiere_20261120.md` pour les huit nouveaux brouillons Cimetière ; les garder inactifs. Le fondateur a choisi trois mails et la mise en attente de la relance exigeant une observation réelle. Ne pas réintroduire cette relance avec une valeur inventée.
 
 ## Publication GitHub
 

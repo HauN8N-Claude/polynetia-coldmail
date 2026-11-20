@@ -95,7 +95,7 @@ Ne pas attribuer une équipe commerciale, un fonctionnement de rénovation gén�
 
 ## 9. Rénovation pour de futures listes
 
-Aucun segment autonome rénovation n’est actuellement identifié dans les lots. Distinguer les prestations avant rédaction : un métier spécialisé, plusieurs corps d’état, rénovation intérieure ou rénovation énergétique. Cette dernière couvre notamment isolation, chauffage et ventilation. [France Rénov’, travaux énergétiques](https://france-renov.gouv.fr/renovation/energetique).
+Aucun segment autonome rénovation n’est identifié dans les lots QualitEnR historiques. Les nouveaux CSV Cimetière du 20 novembre fournissent désormais trois fichiers RENO_DIRIGEANT distincts, décrits dans la fiche 18. Distinguer les prestations avant rédaction : un métier spécialisé, plusieurs corps d’état, rénovation intérieure ou rénovation énergétique. Cette dernière couvre notamment isolation, chauffage et ventilation. [France Rénov’, travaux énergétiques](https://france-renov.gouv.fr/renovation/energetique).
 
 **Vocabulaire proposé :** acquisition de projets de rénovation, périmètre des travaux, qualification du projet, budget prévu, calendrier, suivi commercial, devis signés, coordination si réellement proposée.
 

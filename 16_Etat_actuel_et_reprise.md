@@ -49,6 +49,8 @@ Le token du nom d’entreprise est `{{companyName}}`, pas `{{company_name}}`. L�
 
 ## 5. Données de segmentation
 
+Les chiffres historiques ci-dessous concernent les lots QualitEnR, distincts des huit nouveaux CSV Cimetière reçus ensuite. Le nouveau jeu contient des segments rénovation dédiés ; sa préparation réelle est décrite en section 8 et dans la fiche 18. Ne pas fusionner ces volumes sans contrôle de doublons.
+
 Le travail local compte 10 950 contacts dans 225 fichiers : 216 lots complets et 9 reliquats. Les métiers sont PAC, photovoltaïque, chauffage au bois, ventilation, solaire thermique et un groupe AUTRE à qualifier. Les classes de taille 0–5 et 6–19 existent pour PAC, PV et bois. Aucun segment autonome rénovation générale ou climatisation n’est identifié.
 
 La répartition agrégée est dans [Segmentation_Instantly.md](Segmentation_Instantly.md). Les CSV, coordonnées individuelles et exports API sont des données privées ; ils ne font pas partie de la publication GitHub publique.
@@ -68,8 +70,18 @@ La répartition agrégée est dans [Segmentation_Instantly.md](Segmentation_Inst
 5. Avant une modification Instantly, lire les campagnes via l’API et retrouver celles portant les noms ci-dessus. Ne pas recréer les brouillons parce que les identifiants locaux manquent sur un nouveau PC.
 6. Prévisualiser les variables et vérifier les ressources promises, puis laisser le fondateur lancer manuellement.
 
-Les nouvelles listes Cimetière et Salaire fantôme étaient préparées avec Claude ; elles n’ont pas été reçues ici. Les observations de publicités, recrutements et parcours doivent être vérifiées avant leur utilisation.
+Les listes Cimetière préparées avec Claude ont depuis été reçues et traitées : voir la section 8. Les listes Salaire fantôme restent attendues. Les observations de publicités, recrutements et parcours doivent être vérifiées avant leur utilisation.
 
 ## 7. Ce que le dépôt public permet de reprendre
 
 Le dépôt rassemble la stratégie, les modèles textuels, les règles, les guides, les états de validation et les copies préparées. Les ressources binaires originales, les CSV de leads et les exports privés du compte restent à transférer séparément si nécessaires. La clé Instantly doit être fournie localement par variable d’environnement sur le nouvel ordinateur ; elle n’est jamais publiée.
+
+## 8. Huit nouveaux brouillons Cimetière
+
+Le fondateur a fourni huit CSV du dossier LEADS_CIMETIERE_FRAIS_2026-11-20 et demandé une campagne par fichier. Les huit campagnes `[A VALIDER] CIMETIERE` sont créées par API et inactives. Le détail des noms, imports, copies, comptes et ressources est dans [la fiche 18](18_Campagnes_Cimetiere_20261120.md).
+
+Sur 183 lignes source, 173 contacts sont importés, 8 déjà présents dans le workspace sont écartés et 2 lignes partageant une adresse entre sociétés différentes restent à vérifier. Les sources sont inchangées. Les profils de vocabulaire suivent les segments fournis dans les noms de fichiers ; ils ne certifient pas l’identité de chaque lecteur.
+
+Le fondateur a choisi **trois mails**, en gardant la relance d’observation hors séquence faute de fait vérifié sur le parcours. Cadence préparée : J0, J+3, J+7. Les dates de publicités archivées sont utilisées sans affirmer une diffusion continue de plusieurs mois ni un arrêt global vérifié indépendamment. Les signatures sont dynamiques. Le PS de preuve est réservé au photovoltaïque, avec une condition pour la campagne solaire mêlant photovoltaïque et thermique.
+
+Quatre comptes hors campagnes actives et CF04/CF17 sont partagés avec des plafonds cumulés de 18 ou 20 emails par jour, sous leur limite existante de 30. Huit fiches de vérification d’une page sont disponibles localement pour les réponses après accord ; elles ne décrivent aucune fuite comme observée. Aucun test d’envoi ni activation n’a été effectué. Les objets et déclinaisons de ces nouveaux brouillons restent à relire avant lancement manuel.
