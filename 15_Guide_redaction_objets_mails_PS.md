@@ -8,6 +8,8 @@ Avant de rédiger, identifier la campagne, le modèle du mentor, l’étape, le 
 
 Les templates du mentor constituent le socle des corps et relances. Les changements directement autorisés par le fondateur restent possibles : adaptation métier, projection vers une autre niche, trois bénéfices maximum dans CF17, PS demandés pour Cimetière et objets inventifs au format ci-dessous. Présenter toute nouvelle proposition comme telle, sans l’attribuer au mentor ni la déclarer testée.
 
+Pour la campagne inspirée du Mom Test, le fondateur a demandé une structure spécifique dans [la fiche 17](17_Campagne_Mom_Test_variantes.md) : comprendre le métier, présenter notre promesse, demander un récit sur une situation vécue, puis préciser dans le PS que ce premier mail ne propose rien à acheter. Les formulations de cette version restent à valider.
+
 ## 2. Rédiger les objets
 
 **Format demandé :** `🤝 [MOTCLÉ] Question courte ?` ou `📎 [MOTCLÉ] Question courte ?`.

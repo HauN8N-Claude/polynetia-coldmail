@@ -75,6 +75,8 @@ Les empreintes sont abrégées ci-dessous ; les empreintes complètes, pages et 
 
 - **U30 — Campagne Mom Test** : le fondateur demande trois variantes de mails utilisant uniquement le Mom Test, pour validation. La fiche 17 propose trois premiers contacts indépendants sur des faits récents, sans pitch, hypothèse de douleur ou validation d’intention future. Le photovoltaïque est la cible de travail reprise des campagnes actuelles ; les signatures restent dynamiques. Cette instruction autorise ce socle distinct pour cette campagne, sans remplacer les modèles source des autres séquences. Aucune variante n’est encore validée et aucune campagne Mom Test n’est créée dans Instantly.
 
+- **U31 — Structure Mom Test précisée par le fondateur** : conserver l’ouverture « nous cherchons à comprendre… », ajouter une promesse « nous aidons X à Y sans douleur », demander de l’aide pour comprendre les difficultés et ajouter un PS. La fiche 17 est révisée avec trois variantes à valider. Les questions sont ancrées dans des événements récents plutôt que dans une opinion sur l’offre. Le PS proposé affirme seulement que le premier mail ne propose rien à acheter ; il ne déclare pas toute la démarche commerciale de l’agence désintéressée. La promesse proposée sur le tri et la qualification reste à valider. Cette structure remplace les premiers mails de U30 sans promesse ni PS ; elle est présentée comme inspirée du Mom Test et non comme une application stricte de la méthode.
+
 ## 4. Une place unique par thème
 
 | Thème regroupé | Sources qui se recoupent | Emplacement dans le document central |

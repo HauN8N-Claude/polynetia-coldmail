@@ -4,7 +4,7 @@ Version du 20 novembre 2026. À consulter avant toute rédaction ou adaptation d
 
 ## 1. Documents à consulter
 
-**Exception explicitement demandée pour la campagne Mom Test :** utiliser uniquement les principes de cette méthode pour les trois variantes de découverte de la fiche 17, sans y ajouter un pitch CF04, une ressource CF17 ou une question d’opinion sur l’offre. Les règles de signature, de mapping et de validation restent applicables. Cette exception ne change pas le socle des autres campagnes.
+**Campagne inspirée du Mom Test, structure précisée ensuite par le fondateur :** suivre dans la fiche 17 l’ouverture sur la compréhension du métier, la promesse « nous aidons X à Y sans douleur », une question sur un fait récent et un PS de compréhension. La présentation de la promesse avant la question peut orienter la réponse : ne pas présenter cette structure comme une application stricte sans biais du Mom Test. Le PS proposé porte sur ce premier mail et ne prétend pas que toute la démarche de PolynetIA est sans intérêt commercial. Les règles de signature, de mapping et de validation restent applicables. Cette exception ne change pas le socle des autres campagnes.
 
 Lire [l’état actuel](16_Etat_actuel_et_reprise.md) et [le guide objets, mails et PS](15_Guide_redaction_objets_mails_PS.md) pour les dernières sélections et les exemples. En particulier, les quatre PS Cimetière déjà sélectionnés ne sont pas à choisir de nouveau à partir d’un ancien document.
 
