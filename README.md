@@ -10,6 +10,7 @@ Documents de travail pour reprendre la stratégie d’acquisition de PolynetIA s
 | --- | --- |
 | Reprendre le travail et connaître les validations | [État actuel](16_Etat_actuel_et_reprise.md) |
 | Écrire objets, mails et PS | [Guide de rédaction dédié](15_Guide_redaction_objets_mails_PS.md) |
+| Revoir les trois nouvelles variantes Mom Test | [Propositions Mom Test](17_Campagne_Mom_Test_variantes.md) |
 | Appliquer les règles communes | [Règles coldmail](11_Regles_redaction_coldmail.md) |
 | Adapter le langage à un artisan | [Référentiel artisans](12_ICP_Artisans.md) |
 | Adapter le langage à un dirigeant | [Référentiel dirigeants](13_ICP_Dirigeants.md) |

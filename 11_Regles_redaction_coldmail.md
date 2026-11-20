@@ -4,6 +4,8 @@ Version du 20 novembre 2026. À consulter avant toute rédaction ou adaptation d
 
 ## 1. Documents à consulter
 
+**Exception explicitement demandée pour la campagne Mom Test :** utiliser uniquement les principes de cette méthode pour les trois variantes de découverte de la fiche 17, sans y ajouter un pitch CF04, une ressource CF17 ou une question d’opinion sur l’offre. Les règles de signature, de mapping et de validation restent applicables. Cette exception ne change pas le socle des autres campagnes.
+
 Lire [l’état actuel](16_Etat_actuel_et_reprise.md) et [le guide objets, mails et PS](15_Guide_redaction_objets_mails_PS.md) pour les dernières sélections et les exemples. En particulier, les quatre PS Cimetière déjà sélectionnés ne sont pas à choisir de nouveau à partir d’un ancien document.
 
 Lire ce fichier, puis [le référentiel artisans](12_ICP_Artisans.md) ou [le référentiel dirigeants](13_ICP_Dirigeants.md), selon les informations disponibles. Si le profil est incertain ou mixte, consulter les deux et employer un vocabulaire concret commun.

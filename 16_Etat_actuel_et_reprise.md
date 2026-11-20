@@ -59,6 +59,8 @@ La répartition agrégée est dans [Segmentation_Instantly.md](Segmentation_Inst
 
 **Nouvelle demande en cours :** choisir deux autres méthodes de campagne. Cinq approches issues des modèles du mentor sont proposées : audit vidéo personnalisé (CF24/ED04), interview de recherche (CF21), podcast (PO01/PO02), atelier pédagogique (CF14), offre directe avec appel court (CF03). Aucune de ces nouvelles approches n’est encore choisie ni configurée dans cette étape.
 
+**Priorité suivante demandée :** préparer trois variantes utilisant uniquement le Mom Test. Les trois premiers mails proposés figurent dans [la fiche 17](17_Campagne_Mom_Test_variantes.md), sur le dernier client obtenu, la dernière demande reçue et le dernier devis envoyé. Ils utilisent le photovoltaïque comme cible de travail et attendent validation. Aucun setup ni changement des campagnes existantes n’est effectué pour cette nouvelle méthode.
+
 1. Lire AGENTS.md, ce document, la fiche 15 et les règles 11.
 2. Prendre connaissance des copies réellement enregistrées dans la fiche 14 et de leur état de validation.
 3. Conserver les objets CF04 et CF17 déjà validés et terminer la revue des textes et des lexiques.
