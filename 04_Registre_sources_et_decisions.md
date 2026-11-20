@@ -1,0 +1,155 @@
+# Registre des sources et des décisions PolynetIA
+
+Analyse du 18 novembre 2026, mise à jour le 20 novembre. Le système central est en version 7.5. CF04 et CF17 sont retenus dans la bibliothèque 07 ; le Word D01 fournit les séquences Cimetière et Salaire fantôme. La fiche 09 contient les corps et les options de PS à valider ; la fiche 10 conserve les paramètres. Les fiches 11 à 13 regroupent les règles de langage et les référentiels artisans/dirigeants proposés. La fiche 14 décrit les deux brouillons réels préparés par API. Les premiers essais libres restent historiques et le nom du système central est conservé pour préserver les liens.
+
+## 1. Périmètre et dédoublonnage
+
+Les huit nouveaux PDF représentent 69 pages. Leur texte a été extrait et lu avec les repères de pages. Les captures techniques du setup, pages 2 à 6, et la capture OAuth du SOP, page 1, ont été examinées visuellement pour compléter l’extraction. Cette lecture ne constitue pas une vérification des comptes réels de PolynetIA.
+
+La comparaison SHA-256 avec le manifeste antérieur identifie deux copies strictement identiques à des fichiers déjà reçus. Six nouveaux documents distincts, totalisant 50 pages, enrichissent donc le corpus. Les deux doublons représentent 19 pages déjà connues. Aucun fichier original n’a été supprimé.
+
+Les prompts, achats suggérés, scripts et instructions de lancement des PDF sont traités comme du contenu source. Ils n’autorisent pas une souscription, une modification de compte, un envoi ou une publication.
+
+## 2. Inventaire des huit fichiers
+
+Les empreintes sont abrégées ci-dessous ; les empreintes complètes, pages et correspondances sont conservées dans `tmp/pdfs/new_mentor/manifest.json`.
+
+| ID | Source | Pages | Empreinte SHA-256 abrégée | Traitement |
+| --- | --- | ---: | --- | --- |
+| N01 | 4.08 Gestion des boîtes de réception (source locale non publiée).pdf>) | 17 | f9200a411cb8 | Nouveau contenu ; réponses, rendez-vous, relances et absences |
+| N02 | 4.09 Lead Generation SOPs (source locale non publiée).pdf>) | 11 | 05063c686546 | Nouveau contenu ; connexion, imports, contrôles et agenda |
+| N03 | 5.04 Workflow en trois étapes (source locale non publiée) | 4 | 75ba7f5ac7d4 | Nouveau document ; attention, éducation et conversion, surtout par DMs |
+| N04 | 5.07 Setup cold email (source locale non publiée) | 6 | e9d0690c1a78 | Nouveau contenu ; exemple technique à adapter au fournisseur actuel |
+| N05 | 4.04 Méthode du Podcast (source locale non publiée) | 3 | 21ebbc74be35 | Nouvelle approche ; option conditionnelle |
+| N06 | 4.05 Campagnes basées sur l’Éducation (source locale non publiée) (1).pdf>) | 12 | e14731c5973d | Doublon exact des exemplaires antérieurs (1) et (2) ; aucune seconde synthèse |
+| N07 | 4.06 Configuration et gestion des campagnes (source locale non publiée).pdf>) | 9 | 3bf63aa73f71 | Nouveau contenu ; capacité, tests, analyse et augmentation des volumes |
+| N08 | 4.07 Coffre Fort des templates (source locale non publiée).pdf>) | 7 | 10cd597691bf | Doublon exact de l’exemplaire antérieur sans suffixe ; banque d’exemples unique |
+
+## 3. Sources antérieures
+
+**D01 — Nouvelle ressource Word du 19 novembre :** Campagnes ColdMail 3Strategies (source locale non publiée), SHA-256 `9fd451583925e87cf12f0f0f84febc71caa0ede2848b0dba969ecba9980f6d4e`. Le document contient trois séquences de cinq messages : Cimetière, Salaire fantôme et benchmark sectoriel. Les trois scripts de test en fin de document recoupent la banque existante et ne sont pas ajoutés en double. La mention initiale « aucun client » ne remplace pas les informations du fondateur. Le benchmark sur des paysagistes ne démontre ni l’échantillon ni le classement de l’étude photovoltaïque de PolynetIA.
+
+- **A01 — Méthode de l’Interview**, huit pages : exemplaire de référence (source locale non publiée).pdf>). L’exemplaire (2) est identique selon le manifeste antérieur.
+- **A02 — Éducation**, douze pages : représenté par N06 sans nouvelle copie de synthèse.
+- **A03 — Templates**, sept pages : représenté par N08 sans seconde banque de scripts.
+- **A04 — Images du mentor** : `01_Transcription_images_mentor.md`, avec les incertitudes de lecture signalées.
+- **A05 — Transcription automatique du Word** : `03_Transcription_audio_source.md`. Aucun enregistrement audio n’a été vérifié.
+- **A06 — Segmentation du 17 novembre** : `Segmentation_Instantly.md`. Les chiffres préparés précédemment n’ont pas été réaudités dans cette analyse.
+- **U01 — Précisions initiales du fondateur** : PolynetIA, solaire/PAC/rénovation, artisans et dirigeants, France entière, aucun prix au premier contact, rémunération mise en place/mensuel/croissance. L’absence de clients était indiquée lors de ce premier cadrage.
+- **U02 — Cas anonymisé demandé le 19 novembre** : le fondateur indique avoir aidé une entreprise en mettant en place le système et souhaite mentionner cette expérience sans nommer l’entreprise. Cette précision actualise le cadrage des preuves ; le contexte, le périmètre et les résultats restent à préciser. La déclaration seule ne permet pas d’inventer un secteur, une mission payante ou un gain chiffré. Les instructions directes du fondateur priment sur les hypothèses antérieures et les exemples du mentor.
+- **U03 — Précisions sur le cas solaire** : le fondateur confirme un accompagnement client dans l’installation solaire, avec campagnes publicitaires ciblées et système complet de qualification des leads ; Meta Ads et Google Ads sont cités comme canaux pertinents. La période, les canaux effectivement utilisés, le sous-métier solaire et les résultats restent à récupérer. Cette précision actualise les inconnues de U02.
+- **U04 — Préparation des campagnes** : le fondateur demande de commencer la stratégie des campagnes et de restituer les instructions retenues de tous les supports. Le premier pilote est proposé dans un document d’application distinct des règles communes ; aucun envoi n’est déclenché.
+- **U05 — Confirmation du métier le 19 novembre** : le client accompagné était un installateur photovoltaïque. Cette réponse lève l’incertitude sur le sous-métier de U03. Les messages sont précisés ; la taille du client, les résultats, le budget et la période restent inconnus.
+- **U06 — Exploration sur un fichier de cinquante leads** : le fondateur souhaite faire varier les objets, corps, PS et relances. Ce choix remplace pour le premier lot le plan précédent de deux variantes de cinquante contacts. Dix séquences de cinq contacts sont préparées ; aucune comparaison isolée d’un élément n’est revendiquée.
+- **U07 — Inventaire du mentor** : le fondateur demande la liste des recommandations et tous les templates email des fichiers. Les recommandations sont regroupées dans le document 06 et les textes sources dans le document 07, séparément de nos copies.
+- **U08 — Trois campagnes et analyse du copy** : le fondateur souhaite travailler la structure, le ton et les éléments de chaque mail à partir des templates fournis, et demande une proposition pertinente de campagnes. Les trois approches proposées sont le cas anonymisé, l’éducation et l’interview sur la cible photovoltaïque ; le document 09 les développe.
+- **U09 — Contraintes Instantly** : le fondateur demande une correspondance exacte entre variables et mapping des CSV, un minimum de trois jours entre les relances et une répartition des boîtes adaptée aux campagnes simultanées. Ces règles sont consignées dans la fiche 10 et restent applicables aux futures révisions du copy. Les anciens suivis à deux jours du système ont été remplacés ; les textes historiques du mentor ne sont pas modifiés.
+- **U10 — Templates exclusivement** : le fondateur considère les modèles fournis comme testés et validés et demande de les utiliser comme seule base de rédaction, sans invention. Les adaptations libres des fiches 05 et 09 sont mises en historique. Chaque futur email devra indiquer son modèle source exact et ses substitutions ; pas de nouvelle structure, relance, CTA ou PS ajouté spontanément. Les champs sont renseignés avec les données réelles disponibles et les contraintes techniques U09 restent applicables.
+- **U11 — Supports et sélection de cinq modèles** : le fondateur indique disposer d’une vidéo des mécanismes de l’offre, d’une étude sectorielle et d’une étude de cas client réalisée. Les contenus n’ont pas encore été consultés. La sélection proposée est ED01, CF17, CF04, CF09 et CF15 ; les textes CF04 et CF09 supposent respectivement un document ou une vidéo réellement adaptés au prospect, et CF17 suppose une recherche dont le fondateur peut effectivement revendiquer la réalisation. CF15 est un envoi de contenu direct, proposé après accord.
+- **U12 — Templates retenus** : le fondateur valide CF04 et CF17 et autorise explicitement l’ajout d’au maximum trois bénéfices d’implémentation à CF17. Ce choix remplace le classement U11. Les sujets et résultats de l’étude ne sont pas inventés.
+- **U13 — Deux campagnes sur signaux** : le fondateur demande de préparer les copies Cimetière et Salaire fantôme depuis D01 pendant que Claude collecte les leads. Les adaptations au modèle sont indiquées dans la fiche 09 : salutation sans prénom, signature, champ de poste distinct et condition de recrutement. Les séquences comportent trois relances à intervalles de trois, trois et quatre jours. Les listes et observations ne sont pas encore reçues.
+- **U14 — Question précise dans CIM03 le 20 novembre** : le fondateur confirme l’exigence d’une observation réelle et demande de la présenter comme une question pertinente et précise. La relance 2 est reformulée autour de la durée de diffusion et de la date d’arrêt, avec le CTA de grille conservé. observedFunnelSignal n’est plus requis dans ce mail ; les données de comptage ne seront ajoutées que si elles sont vérifiées.
+- **U15 — Rapport dans CIM01** : le fondateur demande de conserver le passage du premier mail précisant les points à vérifier avant remise de budget, l’objectif d’optimisation du retour sur investissement et un rapport résumé d’une page. Ce passage est repris, sans ajouter de résultat chiffré.
+- **U16 — Trois options de PS** : le fondateur demande trois propositions pour chaque message Cimetière. Quinze propositions sont préparées pour les quatre emails de prospection et la réponse manuelle après accord. Ce sont des ajouts explicitement demandés, pas des textes attribués au mentor. Aucun PS n’est encore choisi.
+- **U17 — Validation des relances Cimetière** : les corps de relance 1 et 3 sont repris avec les mots fournis par le fondateur et marqués validés. La demande finale de relance 2 devient « Je vous envoie le résumé rapide en 1 page ? ». Son ouverture affirmative citée dans ce message contredit la forme interrogative demandée en U14 : une question ciblée est en attente pour trancher. Aucun choix implicite n’est marqué validé. Le minimum de trois jours entre chaque mail est reconfirmé.
+- **U18 — Choix final de l’ouverture CIM03** : le fondateur confirme explicitement la phrase affirmative citée dans U17. La version interrogative de U14 est remplacée ; le corps validé de relance 2 utilise de nouveau observedFunnelSignal, obligatoire et vérifié avant envoi. Le choix est tranché, sans nouvelle confirmation nécessaire. Les quinze options de PS restent non sélectionnées.
+
+- **U19 — CF04 : adaptation par niche et relance 2 validées le 20 novembre** : conserver le cas client photovoltaïque et ajouter une projection concrète dans le métier du destinataire. Le fondateur confirme un accompagnement uniquement photovoltaïque. La relance 2 validée commence par « Nous avons récemment accompagné une entreprise d’installation photovoltaïque » et propose le document d’une page ; elle remplace la formulation supposant que tous les prospects sont dans le même secteur. Le corps exact et les règles de substitution figurent en section 3 de la fiche 09. Signature retenue : « [Prénom et nom] de chez PolynetIA ». Les repères de métier et de critères sont éditoriaux, à remplacer avant import, sans créer de variable Instantly implicite.
+
+- **U20 — Langage artisans et dirigeants, demandé le 20 novembre** : le fondateur demande l’analyse des deux ICP pour tous les métiers des lots, un fichier de règles à consulter à chaque rédaction et un référentiel par ICP à soumettre pour validation. La fiche 11 porte les règles communes ; les fiches 12 et 13 proposent les champs lexicaux, les applications par métier et deux versions de travail de la dernière relance CF04. Elles couvrent PAC, photovoltaïque, bois, ventilation et thermique, conservent AUTRE à qualifier et traitent la rénovation comme une extension sans lot autonome. Les catégories artisan/dirigeant décrivent des angles de communication qui peuvent se recouper ; aucune attribution par taille seule n’est effectuée. Les termes métiers sont éclairés par les pages officielles de Qualit’EnR et France Rénov’ ; les propositions de langage ne constituent pas une étude de préférence linguistique. AGENTS.md rend la lecture des fichiers obligatoire pour les futures rédactions dans ce dossier. Les lexiques et nouvelles formulations restent à valider, sans modification des textes approuvés ni des CSV sources.
+
+- **U21 — Préparation Instantly par API, sans lancement** : le fondateur demande de configurer CF04 et CF17, en contrôlant mapping, niche et ICP, et se réserve explicitement le lancement manuel après validation. Il rappelle l’accès par clé API et demande de ne pas passer par Google. La clé est disponible via INSTANTLY_API_KEY ; sa valeur n’est ni affichée ni enregistrée. Deux brouillons sont créés : CF04 [identifiant privé] et CF17 [identifiant privé]. Les deux lots de 50 PV_0-5 donnent 38 et 39 imports après exclusion de 12 et 11 contacts déjà présents dans le compte. Aucune attribution artisan/dirigeant n’est déduite de la taille. Les copies concrètes restent à valider ; les contrôles techniques par relecture API et les comptes dédiés figurent dans la fiche 14. Les anciens statuts de campagnes sont conservés et aucun endpoint d’activation ni d’envoi test n’est utilisé.
+- **U22 — Sujet de l’étude CF17 précisé** : le fondateur indique que l’étude porte sur les principaux points de fuite dans l’acquisition d’une entreprise de la niche ciblée. Le brouillon photovoltaïque reprend ce sujet au singulier, sans inventer deux sous-thèmes ni des conclusions chiffrées.
+
+- **U23 — Objets courts, emoji et mot-clé** : le fondateur demande des objets interrogatifs de trois à cinq mots, avec 🤝 ou 📎 et un unique mot-clé entre crochets. Il autorise explicitement une rédaction inventive de ces objets. La règle est ajoutée à la fiche 11 ; les propositions seront adaptées au métier et à l’angle de langage. Les noms de variables suivent le mapping réel (`companyName`) plutôt que la notation d’exemple `company_name`. Aucun objet n’est encore choisi pour remplacement dans les brouillons, qui restent inchangés pendant la revue des propositions.
+
+- **U24 — Dépôt GitHub public pour reprendre sur un autre PC** : le fondateur demande un dépôt public contenant le travail de stratégie actuel, après recherche d’un dépôt existant. Le dépôt POLYNETIA trouvé sur son compte contient le site de l’agence, pas ce travail coldmail. Une publication dédiée est préparée avec les documents textuels et un guide de reprise, en excluant les CSV, clés, exports API et données privées du compte. Les originaux locaux sont conservés.
+- **U25 — Guide de rédaction spécifique** : le fondateur demande un fichier dédié à la rédaction des objets, mails et PS. La fiche 15 rassemble les consignes, exemples et statuts ; la fiche 16 présente l’état actuel, les sélections de PS déjà faites et l’ordre de reprise. Les règles AGENTS et la fiche 11 référencent ces documents. Les propositions d’objets restent à choisir et ne sont pas appliquées aux brouillons Instantly.
+
+## 4. Une place unique par thème
+
+| Thème regroupé | Sources qui se recoupent | Emplacement dans le document central |
+| --- | --- | --- |
+| Parcours jusqu’au paiement | A05, N03, N07 | Sections 1 et 2 pour le cadre ; section 11 pour la mesure |
+| Contacts et imports | A06, N02, N07 | Section 3 |
+| Choix interview, éducation ou podcast | A01, N05, N06, N08 | Section 4 |
+| Messages et calendrier des relances | N01, N03, N06, N08 | Cadences communes en section 5 ; séquences exploratoires en fiche 05 et copies des trois approches en fiche 09, pour des usages distincts |
+| Infrastructure, capacité et contrôle | N02, N04, N07, U09 | Section 6 pour le cadre ; fiche 10 pour le mapping, les délais et les comptes simultanés |
+| Traitement d’une réponse | N01, N06 | Section 7 ; calendrier seulement en section 5 |
+| Qualification, agenda et présence | A01, N01, N02 | Section 8 |
+| Proposition et preuves | A01, N01, N06, U01 | Section 9 |
+| Mémoire des conversations | A04, A05, N01, N07 | Section 10 |
+| Indicateurs, tests et volume | N03, N07 | Section 11 |
+| Routine du fondateur | N01, N07 | Section 12 |
+
+Les règles de concision, de prochaine étape et de résultat pour le prospect sont appliquées aux procédures et aux exemples. Elles ne sont pas répétées comme des chapitres propres à chaque méthode. Le registre explique la provenance ; il ne constitue pas un second mode opératoire.
+
+## 5. Arbitrages et corrections
+
+| Point de la source et repère | Décision pour PolynetIA | Motif |
+| --- | --- | --- |
+| N01 p. 1 : réponse idéalement sous quinze minutes | Objectif initial sous une heure pendant les plages prévues ; mesurer le délai réel | Choix d’organisation adapté au fondateur, sans promettre un gain de conversion précis |
+| N01 p. 2 et 6–7 : relancer toutes les 48 heures et continuer jusqu’à une réponse | Séquences bornées selon la situation ; reprise convenue en cas de report | Distinguer conversation ouverte, silence et refus |
+| N01 p. 5 et 7 : réservation ou nouvelle invitation | Créer l’événement après acceptation d’un créneau | Un email d’intérêt n’est pas un accord sur une date |
+| N01 p. 3–4 : fourchettes et garanties d’exemple | Aucun tarif au premier contact ; chiffrage après diagnostic | U01 prime ; aucune fourchette ni garantie PolynetIA établie |
+| N01 p. 13–14 : appel sous cinq minutes après réponse ou téléchargement | Appel complémentaire si ce mode d’échange est souhaité ou accepté | Une demande de contenu ne prouve pas un souhait d’appel ; ne pas inventer un téléchargement |
+| N01 p. 17 et N03 p. 2–3 : nurturing automatisé | Pas d’ajout automatique d’un silencieux à une diffusion récurrente | Distinguer suivi d’une conversation et abonnement à des contenus |
+| N07 p. 3 : désactiver l’arrêt après réponse | Activer l’arrêt sur réponse humaine et contrôler les sous-séquences | Correction confirmée par les références actuelles R01 et R03 |
+| N07 p. 1 : 35 emails par boîte et répartition moitié nouveaux, moitié relances | Capacité partagée entre campagnes, allocation selon les relances dues | Charge variable et repères actuels différents, voir R02 |
+| N07 p. 2–3 : toutes les boîtes, priorité aux nouveaux contacts, intervalle d’une minute | Sélection des boîtes prêtes ; limites et espacement adaptés au pilote | Ce ne sont pas des réglages universels |
+| N07 p. 3 : Gmail principal comme test, Outlook à ignorer | Examiner les fournisseurs représentés dans la liste | Une mesure Gmail ne renseigne pas toute la cible ; un score ne garantit pas la réception |
+| N07 p. 3–5 et 9 : 2 %, 30 %, 1,75 %, 150/250 contacts et nouvelle campagne quotidienne | Repères identifiés ; décisions sur cohortes comparables et conversations | Petits effectifs, définitions variables et délais de réponse |
+| N07 p. 6 : 26 réservations et 4 333 contacts pour deux clients | Environ 4 445 contacts théoriques et 27 réservations avec les mêmes hypothèses | 26 × 75 % × 50 % × 20 % = 1,95 client attendu ; taux PolynetIA inconnus |
+| N03 p. 1–3 : 150–300 DMs, réponses à 25 %, vidéo à 65 % et intérêt à 25 % | Garder la logique du parcours, pas ces objectifs chiffrés | Canal différent et dénominateurs insuffisamment définis |
+| N04 p. 1–3 : trois domaines, quinze boîtes et forfaits précis | Dimensionner après inventaire de l’existant | Aucun achat nécessaire à cette analyse ; tarifs historiques non repris comme actuels |
+| N04 p. 5 : ne pas toucher aux CNAME et autres réglages | Contrôler les enregistrements avec le fournisseur | Le tutoriel ne dispense pas de vérifier l’authentification ; voir R04 |
+| N02 p. 1–2 : code OAuth affiché dans une capture | Utiliser la procédure actuelle et vérifier l’application autorisée | Une capture ancienne ne prouve pas la validité actuelle d’une configuration |
+| N02 p. 8–9 : validation catch-all avec un second outil | Isoler les adresses risquées et décider ensuite du contrôle nécessaire | Préserver le fichier source et éviter un achat sans besoin établi |
+| N05 p. 1–3 : podcast et retombées attendues | Option éditoriale ultérieure avec moyens et accord de publication | Aucun podcast, panel ou audience confirmé pour PolynetIA |
+| N06 et N08 : cas clients, collègue, résultats et garanties dans les scripts | N’utiliser que les éléments réels ; cas anonymisé selon U02 ou démonstration | Distinguer l’expérience déclarée du fondateur et les résultats encore non documentés ; les preuves du mentor ne deviennent pas celles de PolynetIA |
+| A04 : « non merci » serait un écran de fumée | Respecter le refus ; analyser les objections exprimées dans les conversations ouvertes | N01 p. 1 recommande aussi de passer à autre chose après un non clair |
+
+## 6. Vérifications externes ciblées
+
+Consultées le 18 novembre 2026. Elles vérifient les fonctionnalités et règles susceptibles d’évoluer ; elles ne démontrent pas la performance commerciale du système.
+
+- **R01 — [Instantly Campaign Settings](https://help.instantly.ai/en/articles/6222396-campaign-settings)** : arrêt sur réponse, suivi, priorités et arrêt au niveau entreprise. Les cadences du pilote restent des choix PolynetIA.
+- **R02 — [Instantly Account and Campaign Limits](https://help.instantly.ai/en/articles/6248612-account-and-campaign-limits)** : distinction boîte/campagne ; repères actuels de 30 emails de campagne par jour pour les autres comptes et maximum de 20 pour AirMail. Un plafond du produit ne remplace pas les limites du fournisseur.
+- **R03 — [Instantly Follow-Ups After Replies](https://help.instantly.ai/en/articles/13886841-why-follow-ups-are-still-being-sent-to-leads-who-replied)** : contacts déjà répondants, sous-séquences, réponses depuis une autre adresse et réimportations.
+- **R04 — [Google Email sender guidelines](https://support.google.com/mail/answer/81126?hl=en)** : authentification, identité exacte et recommandations vers les comptes Gmail personnels. SPF, DKIM et DMARC sont recommandés ; les exigences minimales varient selon le volume. Aucun audit DNS PolynetIA réalisé.
+- **R05 — [CNIL Communications aux prospects et clients](https://www.cnil.fr/fr/communication-electronique-quelles-regles)** : pertinence professionnelle, information et opposition. Le système décrit l’acquisition B2B de PolynetIA, pas une validation de la prospection des particuliers pour ses futurs clients.
+- **R06 — [Google Ads Prospects qualifiés et convertis](https://support.google.com/google-ads/answer/11459091?hl=fr)**, consulté le 19 novembre : distinction entre la demande initiale, la qualification hors plateforme et une étape de vente définie. Cette documentation soutient les définitions de mesure, pas un résultat chiffré du client solaire.
+- **R07 — [Google Ads Valeurs de conversion](https://support.google.com/google-ads/answer/13064207?hl=fr)**, consulté le 19 novembre : les valeurs renseignées servent à représenter l’impact commercial. Le rapprochement avec les ventes et encaissements réels reste nécessaire pour le cas.
+- **R08 — [Instantly Variables](https://help.instantly.ai/en/articles/6135930-how-to-add-and-use-variables-in-campaigns)**, consulté le 19 novembre : mapping des champs prédéfinis, nom exact des variables personnalisées et prévisualisation par lead et compte d’envoi.
+- **R09 — [Instantly Time to Wait Between Steps](https://help.instantly.ai/en/articles/7916860-time-to-wait-between-steps)**, consulté le 19 novembre : attente calculée par contact depuis l’envoi de l’étape précédente, en jours calendaires et selon les plages actives. Le minimum de trois jours est celui du fondateur, pas le minimum recommandé dans cet article.
+- **R10 — [Instantly Campaign Not Sending](https://help.instantly.ai/en/articles/5975337-campaign-not-sending-complete-troubleshooting-guide)**, consulté le 19 novembre : saturation et partage de capacité des comptes entre campagnes. L’allocation chiffrée reste à construire avec les boîtes réelles.
+
+## 7. Ajout du cas anonymisé dans la version 3
+
+U02 ajoute un angle commercial au même parcours, sans dupliquer les procédures. La méthode de rédaction et le niveau de preuve sont définis en section 4 du document central ; le brouillon figure en section 5. Les références du cas sont suivies dans la campagne, tandis que les relances, la qualification et les indicateurs restent communs.
+
+L’anonymisation porte sur l’identité publique de l’entreprise. Les éléments réalisés et les résultats doivent conserver leur sens et leur portée. Le choix initial est de raconter l’expérience de mise en place ; les effets ou chiffres seront ajoutés seulement s’ils sont fournis et étayés. U03 précise désormais le secteur solaire et l’accompagnement client ; les formulations sont mises à jour en conséquence.
+
+### Application dans la version 4
+
+Les indicateurs à récupérer pour le client solaire sont définis une seule fois en section 9 du système central. La priorité proposée porte sur les chantiers signés attribués, leur coût d’acquisition et leur valeur, avec les demandes qualifiées pour expliquer le mécanisme. Il s’agit d’une recommandation de mesure ; les chiffres restent inconnus.
+
+Les premiers scripts à deux variantes ont été remplacés par l’exploration demandée dans U06. Le choix PV_0-5 reste une proposition. U05 confirme que le cas concerne le photovoltaïque ; la taille de l’entreprise et ses autres caractéristiques restent à qualifier. Les scripts actifs ne sont plus dupliqués dans le système central.
+
+### Bibliothèque et copies proposées dans la version 5
+
+La bibliothèque 07 contient 99 entrées email distinctes : 25 du Coffre Fort, 20 des campagnes éducatives, 46 de la gestion des réponses, quatre du podcast, trois des scripts de test et une capture de la méthode d’interview incluant un message transféré. Ce sont des emails, réponses courtes et fragments. Le PDF d’interview, page 4, contient cette capture non récupérée par l’extraction texte ; elle a été examinée et retranscrite visuellement.
+
+Les deux PDF strictement en double ne sont pas comptés une deuxième fois. Les formulations proches mais différentes sont conservées pour rendre l’inventaire complet. Les objets de podcast, titres de recherche et DMs sont identifiés en annexe. Le document 06 rassemble 125 recommandations regroupées, avec les configurations et chiffres attribués à leurs supports.
+
+La fiche 05 prépare dix séquences originales sur le lot PV_0-5 numéro 001, avec une affectation fixe par rang de contact. Le CSV source n’est pas modifié. L’aperçu 08 répond au contenu proposé. Les trois approches de la fiche 09 sont des brouillons de travail suivants, avec des groupes de contacts distincts à contrôler ; elles ne constituent pas un second envoi au premier lot.
+
+### Contrôle technique local dans la version 5.1
+
+Les 225 lots ont le même schéma de 17 colonnes ; 10 950 lignes ont été relues. Email et CompanyName ne sont pas vides ; 9 299 contacts n’ont pas de FirstName ni de LastName. Les fiches 05 et 09 ne contiennent actuellement aucune variable de fusion de lead, mais des repères de signature et de lien restent à remplacer avant envoi. Le contrôle de rendu dans le compte réel et l’inventaire des boîtes ne sont pas encore effectués.
+
+## 8. Intégrer les prochaines ressources
+
+Comparer l’empreinte du nouveau fichier aux manifestes, puis les recouvrements de sens. Identifier son apport, une contradiction ou un changement de contexte. Mettre à jour une seule section du document central et enregistrer ici la décision. Une simple confirmation d’une règle existante ne justifie pas une nouvelle procédure.
+
+Les prochaines preuves à obtenir concernent l’exécution réelle : état des boîtes, validité de la liste, démonstration disponible, qualité des conversations, conversions et économie de l’offre. Elles ne peuvent pas être déduites de la seule lecture des supports.
