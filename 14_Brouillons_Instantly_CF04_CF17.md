@@ -4,7 +4,7 @@
 
 ## Cible et profil
 
-Les deux campagnes utilisent des lots distincts du segment PV_0-5 : installateurs photovoltaïques. Les fonctions ne sont pas assimilées à la taille. L’angle reste commun aux artisans et dirigeants dont les responsabilités ne sont pas confirmées ; ICPStatus est renseigné non_confirme. Les nouvelles déclinaisons et objets sont soumis à la validation manuelle du fondateur.
+Les deux campagnes utilisent des lots distincts du segment PV_0-5 : installateurs photovoltaïques. Les fonctions ne sont pas assimilées à la taille. L’angle reste commun aux artisans et dirigeants dont les responsabilités ne sont pas confirmées ; ICPStatus est renseigné non_confirme. Les nouvelles déclinaisons restent soumises à la validation manuelle du fondateur. Les deux objets affichés ci-dessous ont été explicitement validés, appliqués et relus par API.
 
 CF17 reprend le sujet précisé par le fondateur : les principaux points de fuite dans l’acquisition client des entreprises de la niche ciblée. Aucun constat chiffré ni résultat de l’étude n’a été ajouté.
 
@@ -48,7 +48,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 
 ### Mail 1 — J0
 
-**Objet :** votre activité photovoltaïque
+**Objet :** 🤝 [PHOTOVOLTAÏQUE] Vos demandes mieux qualifiées ?
 
 > Bonjour,
 >
@@ -120,7 +120,7 @@ Le cas photovoltaïque en une page, l’étude sectorielle et la vidéo sont pro
 
 ### Mail 1 — J0
 
-**Objet :** étude photovoltaïque
+**Objet :** 📎 [ÉTUDE] Des fuites à vérifier ?
 
 > Bonjour,
 >

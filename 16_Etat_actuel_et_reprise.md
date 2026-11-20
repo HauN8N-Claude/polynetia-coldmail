@@ -12,8 +12,8 @@ Le fondateur a confirmé avoir accompagné **une entreprise photovoltaïque**, a
 
 | Campagne | Validations explicites | Éléments encore proposés |
 | --- | --- | --- |
-| CF04 cas client | Template principal du mail 1, template de relance 2, signature de chez PolynetIA, preuve photovoltaïque et projection vers le métier ciblé | Déclinaisons concrètes, relances 1 et 3, objets et réponse manuelle après accord |
-| CF17 étude sectorielle | Choix du template, ajout de trois bénéfices maximum, sujet de l’étude : points de fuite dans l’acquisition de la niche ciblée | Formulations finales de la séquence, objets et réponse manuelle après accord |
+| CF04 cas client | Template principal du mail 1, template de relance 2, signature de chez PolynetIA, preuve photovoltaïque et projection vers le métier ciblé ; objet photovoltaïque choisi et appliqué | Déclinaisons concrètes, relances 1 et 3 et réponse manuelle après accord |
+| CF17 étude sectorielle | Choix du template, ajout de trois bénéfices maximum, sujet de l’étude : points de fuite dans l’acquisition de la niche ciblée ; objet étude choisi et appliqué | Formulations finales de la séquence et réponse manuelle après accord |
 | Cimetière publicités Meta arrêtées | Séquence de prospection revue dans le chat, relances 1 à 3, ouverture affirmative de la relance 2 et quatre PS sélectionnés | Déclinaisons finales et données vérifiées pour chaque prospect, réponse manuelle après accord |
 | Salaire fantôme recrutement ancien | Méthode retenue et consigne de fusionner le premier mail avec l’ancienne première relance | Texte fusionné et suite de la séquence à valider |
 
@@ -36,11 +36,14 @@ Les huit textes et paramètres enregistrés figurent dans [la fiche des brouillo
 
 La relecture API a confirmé le texte enregistré, les variables utilisées, les champs importés et le statut brouillon. Le fondateur effectuera lui-même le lancement manuel après validation. Les copies inscrites dans un brouillon ne sont pas pour autant toutes approuvées.
 
-## 4. Travail en cours sur les objets
+## 4. Objets validés et enregistrés
 
-Le format demandé est : emoji 🤝 ou 📎, un mot-clé entre crochets, une question courte de trois à cinq mots. Les douze propositions sont dans la fiche 15. Aucun choix final ni remplacement API n’a été effectué.
+Le format demandé est : emoji 🤝 ou 📎, un mot-clé entre crochets, une question courte de trois à cinq mots. Les douze propositions sont conservées dans la fiche 15. Le fondateur a validé les deux choix suivants, appliqués et relus par API le 20 novembre :
 
-Les propositions mises en avant sont « 🤝 [PARTENARIAT] Plus de chantiers signés ? » pour CF04 et « 📎 [ÉTUDE] Des fuites à vérifier ? » pour CF17. Elles restent des propositions. Les objets des brouillons sont encore « votre activité photovoltaïque » et « étude photovoltaïque ».
+- **CF04 : 🤝 [PHOTOVOLTAÏQUE] Vos demandes mieux qualifiées ?**
+- **CF17 : 📎 [ÉTUDE] Des fuites à vérifier ?**
+
+Seuls les objets du premier mail ont été remplacés. Les relances conservent leur objet vide de configuration pour rester dans le même fil. Les corps, délais, comptes et paramètres de suivi sont inchangés. Les deux campagnes restent en brouillon ; la validation des objets ne vaut pas validation de toutes les copies ni autorisation de lancement.
 
 Le token du nom d’entreprise est `{{companyName}}`, pas `{{company_name}}`. L’objectif de taux d’ouverture ne doit pas être présenté comme un résultat acquis. Ne pas activer automatiquement le suivi des ouvertures pour mesurer les nouvelles propositions.
 
@@ -54,7 +57,7 @@ La répartition agrégée est dans [Segmentation_Instantly.md](Segmentation_Inst
 
 1. Lire AGENTS.md, ce document, la fiche 15 et les règles 11.
 2. Prendre connaissance des copies réellement enregistrées dans la fiche 14 et de leur état de validation.
-3. Faire choisir les objets CF04 et CF17 et terminer la revue des textes et des lexiques.
+3. Conserver les objets CF04 et CF17 déjà validés et terminer la revue des textes et des lexiques.
 4. Décliner ensuite les templates par métier et profil étayé, en conservant le cas photovoltaïque et une projection distincte pour les autres niches.
 5. Avant une modification Instantly, lire les campagnes via l’API et retrouver celles portant les noms ci-dessus. Ne pas recréer les brouillons parce que les identifiants locaux manquent sur un nouveau PC.
 6. Prévisualiser les variables et vérifier les ressources promises, puis laisser le fondateur lancer manuellement.

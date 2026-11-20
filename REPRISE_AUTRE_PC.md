@@ -15,7 +15,7 @@ Il est également possible de télécharger le ZIP depuis GitHub pour une lectur
 
 Ouvrir ce dossier comme espace de travail et utiliser cette consigne :
 
-> Lis AGENTS.md, 16_Etat_actuel_et_reprise.md, 15_Guide_redaction_objets_mails_PS.md et 11_Regles_redaction_coldmail.md. Reprends la stratégie coldmail PolynetIA à partir des dernières validations. CF04 et CF17 existent déjà dans Instantly en brouillon : retrouve-les par lecture API, ne les recrée pas et ne les active pas. Le travail en cours porte sur le choix des objets, puis la validation des copies et des lexiques.
+> Lis AGENTS.md, 16_Etat_actuel_et_reprise.md, 15_Guide_redaction_objets_mails_PS.md et 11_Regles_redaction_coldmail.md. Reprends la stratégie coldmail PolynetIA à partir des dernières validations. CF04 et CF17 existent déjà dans Instantly en brouillon : retrouve-les par lecture API, ne les recrée pas et ne les active pas. Prends les étapes restantes dans l’état actuel, sans rouvrir les choix déjà validés.
 
 Les modèles d’origine, propositions et textes enregistrés sont distincts. L’état actuel prime sur les anciennes mentions « en attente » dans les historiques.
 

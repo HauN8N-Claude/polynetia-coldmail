@@ -66,6 +66,8 @@ Les empreintes sont abrégées ci-dessous ; les empreintes complètes, pages et 
 - **U24 — Dépôt GitHub public pour reprendre sur un autre PC** : le fondateur demande un dépôt public contenant le travail de stratégie actuel, après recherche d’un dépôt existant. Le dépôt POLYNETIA trouvé sur son compte contient le site de l’agence, pas ce travail coldmail. Une publication dédiée est préparée avec les documents textuels et un guide de reprise, en excluant les CSV, clés, exports API et données privées du compte. Les originaux locaux sont conservés.
 - **U25 — Guide de rédaction spécifique** : le fondateur demande un fichier dédié à la rédaction des objets, mails et PS. La fiche 15 rassemble les consignes, exemples et statuts ; la fiche 16 présente l’état actuel, les sélections de PS déjà faites et l’ordre de reprise. Les règles AGENTS et la fiche 11 référencent ces documents. Les propositions d’objets restent à choisir et ne sont pas appliquées aux brouillons Instantly.
 
+- **U26 — Objets CF04 et CF17 validés et appliqués** : le fondateur sélectionne explicitement « 🤝 [PHOTOVOLTAÏQUE] Vos demandes mieux qualifiées ? » pour CF04 et « 📎 [ÉTUDE] Des fuites à vérifier ? » pour CF17. Les deux objets sont appliqués aux brouillons existants par API après lecture de contrôle, puis relus. Aucun corps, délai, compte ou paramètre n’est changé. Les campagnes restent au statut brouillon et les relances gardent le même fil. Cette décision remplace l’attente de choix des objets mentionnée en U23 et U25 ; les autres formulations de la séquence restent soumises à leur propre validation.
+
 ## 4. Une place unique par thème
 
 | Thème regroupé | Sources qui se recoupent | Emplacement dans le document central |

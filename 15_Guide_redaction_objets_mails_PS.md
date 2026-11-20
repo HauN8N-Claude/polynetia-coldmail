@@ -20,7 +20,7 @@ Les templates du mentor constituent le socle des corps et relances. Les changeme
 - Employer « Urgent » uniquement si le contexte comporte une urgence réelle. L’emoji 📎 ne signifie pas qu’une pièce jointe est déjà présente.
 - Si le nom d’entreprise est utilisé, employer `{{companyName}}` et vérifier la longueur après fusion. Un nom d’entreprise peut comporter plusieurs mots.
 
-### Propositions CF04 en attente de choix
+### Objet CF04 validé et alternatives conservées
 
 1. 🤝 [PARTENARIAT] Plus de chantiers signés ?
 2. 📎 [CONFRÈRE] Un cas à découvrir ?
@@ -29,7 +29,7 @@ Les templates du mentor constituent le socle des corps et relances. Les changeme
 5. 📎 [SUIVI] Des projets mieux suivis ?
 6. 🤝 [ACQUISITION] Un système à comparer ?
 
-### Propositions CF17 en attente de choix
+### Objet CF17 validé et alternatives conservées
 
 1. 📎 [ÉTUDE] Des fuites à vérifier ?
 2. 📎 [ACQUISITION] Où partent vos demandes ?
@@ -38,7 +38,7 @@ Les templates du mentor constituent le socle des corps et relances. Les changeme
 5. 📎 [PARCOURS] Votre parcours est suivi ?
 6. 📎 [QUALIFICATION] Vos demandes sont traitées ?
 
-Les propositions mises en avant dans le chat sont CF04 n°1 et CF17 n°1 ; elles ne sont pas encore validées ni appliquées dans Instantly. Les objets enregistrés restent « votre activité photovoltaïque » et « étude photovoltaïque ». Le suivi des ouvertures est désactivé dans ces brouillons ; ne pas le modifier automatiquement. Aucun gain de taux d’ouverture n’est démontré pour ces propositions.
+**Choix validés par le fondateur et appliqués par API le 20 novembre :** CF04 n°4, « 🤝 [PHOTOVOLTAÏQUE] Vos demandes mieux qualifiées ? » ; CF17 n°1, « 📎 [ÉTUDE] Des fuites à vérifier ? ». Les autres propositions restent des alternatives non sélectionnées. Les relances conservent le même fil. Les deux campagnes restent en brouillon ; les corps, délais et comptes sont inchangés. Le suivi des ouvertures est désactivé ; ne pas le modifier automatiquement. Aucun gain de taux d’ouverture n’est démontré pour ces objets.
 
 ## 3. Rédiger le corps des mails
 
